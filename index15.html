@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+<script type=text/javascript>
+function run1()
+{
+	document.frm.result.value+="1";
+}	
+	
+function run2()
+{
+	document.frm.result.value+="2";
+}	
+
+function run3()
+{
+	document.frm.result.value+="3";
+}	
+
+function run4()
+{
+	document.frm.result.value+="4";
+}	
+
+function run5()
+{
+	document.frm.result.value+="5";
+}	
+
+function run6()
+{
+	document.frm.result.value+="6";
+}	
+
+function run7()
+{
+	document.frm.result.value+="7";
+}	
+
+function run8()
+{
+	document.frm.result.value+="8";
+}	
+
+function run9()
+{
+	document.frm.result.value+="9";
+}	
+
+function run0()
+{
+	document.frm.result.value+="0";
+}	
+
+function runplus()
+{
+	document.frm.result.value+="+";
+}	
+
+function runminus()
+{
+	document.frm.result.value+="-";
+}	
+
+function rundiv()
+{
+	document.frm.result.value+="/";
+}	
+
+function runmul()
+{
+	document.frm.result.value+="*";
+}	
+
+function runp()
+{
+	document.frm.result.value+=".";
+}	
+
+function runm()
+{
+	document.frm.result.value+="%";
+}	
+
+function runclear()
+{
+	document.frm.result.value="";
+}	
+
+function runeval()
+{
+	var evalu=eval(document.frm.result.value);
+	document.frm.result.value=evalu;
+}	
+
+
+</script>	
+	
+<style type="text/css">
+#st{
+	background-color:gray;
+	border: 1px red gray;
+	width: 180px;
+	
+}	
+
+
+
+</style>
+
+
+
+</head>
+
+
+
+
+
+
+<body>
+<div id="st">
+<form name="frm">
+<input name="result" style="width:170px"></br>
+<input type="button" name="1" value="1" onclick="run1()" style="width:40px">
+<input type="button" name="2" value="2" onclick="run2()" style="width:40px">
+<input type="button" name="3" value="3" onclick="run3()" style="width:40px">
+<input type="button" name="plus" value="+" onclick="runplus()" style="width:40px">
+<br>
+
+<input type="button" name="4" value="4" onclick="run4()" style="width:40px">
+<input type="button" name="5" value="5" onclick="run5()" style="width:40px">
+<input type="button" name="6" value="6" onclick="run6()" style="width:40px">
+<input type="button" name="minus" value="-" onclick="runminus()" style="width:40px">
+</br>
+
+<input type="button" name="7" value="7" onclick="run7()" style="width:40px">
+<input type="button" name="8" value="8" onclick="run8()" style="width:40px">
+<input type="button" name="9" value="9" onclick="run9()" style="width:40px">
+<input type="button" name="mul" value="*" onclick="runmul()" style="width:40px">
+</br>
+
+<input type="button" name="0" value="0" onclick="run0()" style="width:40px">
+<input type="button" name="p" value="." onclick="runp()" style="width:40px">
+<input type="button" name="m" value="%" onclick="runm()" style="width:40px">
+<input type="button" name="div" value="/" onclick="rundiv()" style="width:40px">
+</br>
+
+<input type="button" name="cal" value="c" onclick="runclear()" style="width:60px">
+<input type="button" name="ev" value="evalu" onclick="runeval()" style="width:110px">
+
+</form>
+</div>
+</body>
+</html>
